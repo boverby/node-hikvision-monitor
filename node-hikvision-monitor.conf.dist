@@ -1,0 +1,11 @@
+{
+ "logLevel" : "DEBUG",
+ "mqttBroker" : "192.168.1.91",
+ "logFile" : "/var/local/log/n-h-p.log", 
+ "cameras" : {
+   "cam190" :  { "host" : "192.168.1.190", "port" : "8090", "user" : "admin", "pass" : "12345", "log" : false  },
+   "cam191" :  { "host" : "192.168.1.191", "port" : "8091", "user" : "admin", "pass" : "12345", "log" : false  },
+   "cam192" :  { "host" : "192.168.1.192", "port" : "8092", "user" : "admin", "pass" : "12345", "log" : false  },
+   "cam193" :  { "host" : "192.168.1.193", "port" : "8093", "user" : "admin", "pass" : "12345", "log" : false  }
+   } 
+}
